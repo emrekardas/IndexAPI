@@ -1,4 +1,5 @@
 const axios = require('axios');
+var key = require('./keys.json');
 const data = {"query":`{me {
         id
   }}`};
